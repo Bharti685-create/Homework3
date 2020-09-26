@@ -11,7 +11,7 @@ while True: # loop until break
     if current_g_reading == SENTINEL:
         break # if SENTINEL is entered break the loop
 
-    gallons_used = current_g_reading + gallons
+    gallons = current_g_reading + gallons
     current_m_reading = float(input('Enter miles driven: '))
     miles = miles + current_m_reading
     current_avg_reading = current_m_reading / current_g_reading 
